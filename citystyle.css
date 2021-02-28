@@ -1,0 +1,30 @@
+*{
+    font-family: Nunito Sans;
+  }
+  .example1{
+    background-color:#544F53;
+    
+    justify-content: center;
+  }
+  .Container {
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+      margin:0 20px;
+  }
+  
+  .txt-img{
+      display: flex;           /*for (menu img ) to be Next to each other*/
+      flex-direction: column;  /*for (menu txt) to be under the menu img*/
+      padding: 40px;           /*to have a space between (menu images) */
+      flex-wrap: nowrap;
+      width: 15%;
+      height: 15%;
+      color: white;
+      text-align: start;
+      padding-bottom: 50px;
+  }
+  
+  
+  
+  
