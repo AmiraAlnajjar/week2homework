@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(56, 56, 128);
+
+}
+#wrap{
+    display: flex;
+}
+#nav{
+    float: left;
+    background-color: rgb(165, 192, 241);
+    padding: 10px;
+}
+#content{
+    float: right;
+    background-color: rgb(89, 137, 226);
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+#removestyle{
+    list-style-type: none;
+}
+.copyright{
+    margin-left: 15%;
+}
